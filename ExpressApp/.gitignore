@@ -1,0 +1,68 @@
+# Security & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+*.pfx
+secrets.json
+
+
+# User Data / Uploads
+# -------------------------
+uploads/
+storage/
+tmp/
+*.sqlite
+*.db
+*.log
+
+
+# Build Output
+# -------------------------
+dist/
+build/
+.next/
+out/
+*.cache
+.cache/
+
+
+# Dependencies
+# -------------------------
+node_modules/
+
+
+# Logs
+# -------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# IDE / Editor Config
+# -------------------------
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+
+# Test / Coverage
+# -------------------------
+coverage/
+*.lcov
+
+
+# Rare VCS directories
+# -------------------------
+.darcs
+.bzr
+.hg
+BitKeeper
