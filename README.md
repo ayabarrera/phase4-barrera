@@ -46,7 +46,7 @@ How to test:
 ## 2. NPM Audit
 - Ensure all dependencies are secure by running npm audit in your project directory to check for known vulnerabilities.
 
-![npm](./screenshots/npm.pngg)
+![npm](./screenshots/npm.png)
 
 
 Recommended fix:
